@@ -27,7 +27,9 @@ It predicts the customer segment based on demographic and purchasing behavior us
 ├── kmeans_model.pkl # Trained ML model
 ├── scaler.pkl # StandardScaler model
 ├── README.md # Project documentation
-
+├── Screenshot - 1 
+├── Screenshot - 2
+├── Screenshot - 3
 
 ---
 
