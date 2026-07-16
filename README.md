@@ -1,8 +1,5 @@
-Bhai, tera poora repo deeply analyze karke maine ek **100% Ready-to-Paste Corporate README.md** file tayyar kar di hai. Isme installation se lekar screenshots, badges, tables aur technical architecture tak **sab kuch ek hi single code block mein integrated hai**.
 
-Tujhe alag se koi bhi formatting, heading, ya spacing thik karne ki zaroorat nahi padegi. Bas niche diye gaye code ko **copy** kar aur apne GitHub ke `README.md` file mein **paste** maar de:
-
-```markdown
+``markdown
 # ⚡ Enterprise Customer Segmentation AI
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://enterprise-customer-segmentation.streamlit.app)
@@ -43,7 +40,7 @@ The segmentation engine processes behavioral and financial metrics through a sta
 
 ## 📂 Repository Structure
 
-```text
+``text
 ├── Analysis_Model.ipynb       # EDA, Feature Engineering & K-Means Model Development
 ├── Segmentation.py            # Main Streamlit Enterprise Dashboard Application
 ├── customer_segmentation.csv  # Historical Dataset used for Model Training
