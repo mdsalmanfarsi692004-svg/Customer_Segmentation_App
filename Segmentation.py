@@ -3,29 +3,33 @@ import pandas as pd
 import numpy as np
 import joblib
 
-# 1. Page Configuration (Must be the first Streamlit command)
+# 1. Page Configuration
 st.set_page_config(
-    page_title="AI Customer Segmentation Hub",
-    page_icon="👥",
+    page_title="Enterprise Customer Segmentation AI",
+    page_icon="⚡",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
 
-# 2. Custom CSS for Enterprise-Grade Dark Theme & Polish
+# 2. Custom CSS for Enterprise-Grade Dark Theme & Centered Polish
 st.markdown("""
     <style>
-    /* Main Dashboard Header */
+    /* Main Dashboard Header (Centered & Ultra-Bold) */
     .main-title {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: #FAFAFA;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+        font-size: 3rem !important;
+        font-weight: 800 !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+        margin-bottom: 8px !important;
+        padding-bottom: 0px !important;
+        letter-spacing: 0.5px;
     }
     .sub-title {
-        font-size: 1.1rem;
-        color: #8E9297;
-        margin-bottom: 30px;
+        font-size: 1.15rem !important;
+        text-align: center !important;
+        color: #A0AEC0 !important;
+        margin-bottom: 35px !important;
+        font-weight: 400 !important;
     }
     /* Section Headers */
     .section-header {
@@ -75,9 +79,9 @@ except Exception as e:
     st.error(f"⚠️ Error loading models: {e}. Please ensure 'kmeans_model.pkl' and 'scaler.pkl' are in the directory.")
     st.stop()
 
-# 4. Header Section
-st.markdown('<p class="main-title">👥 AI Customer Segmentation Hub</p>', unsafe_allow_html=True)
-st.markdown('<p class="sub-title">Enter customer behavioral & demographic data below to generate real-time segmentation analytics.</p>', unsafe_allow_html=True)
+# 4. Header Section (Centered & Professional)
+st.markdown('<p class="main-title">⚡ Enterprise Customer Segmentation AI</p>', unsafe_allow_html=True)
+st.markdown('<p class="sub-title">Powered by Advanced K-Means Clustering • Analyze behavioral patterns & drive targeted marketing strategies in real-time.</p>', unsafe_allow_html=True)
 
 st.write("---")
 
