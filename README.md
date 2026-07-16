@@ -1,5 +1,3 @@
-
-``markdown
 # ⚡ Enterprise Customer Segmentation AI
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://enterprise-customer-segmentation.streamlit.app)
@@ -40,7 +38,7 @@ The segmentation engine processes behavioral and financial metrics through a sta
 
 ## 📂 Repository Structure
 
-``text
+```text
 ├── Analysis_Model.ipynb       # EDA, Feature Engineering & K-Means Model Development
 ├── Segmentation.py            # Main Streamlit Enterprise Dashboard Application
 ├── customer_segmentation.csv  # Historical Dataset used for Model Training
