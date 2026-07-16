@@ -170,7 +170,7 @@ If you have suggestions for improving this platform, feel free to open an issue 
 
 *Aspiring Data Analyst & AI/ML Engineer*
 
-* 🌐 **LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/md-salman-farsi-5a609737b)
-* 💻 **GitHub Profile:** [@mdsalmanfarsi692004-svg](https://www.google.com/search?q=https://github.com/mdsalmanfarsi692004-svg)
+* 🌐 **LinkedIn:** [Connect with me on LinkedIn](www.linkedin.com/in/md-salman-farsi-data-analyst)
+* 💻 **GitHub Profile:** [@mdsalmanfarsi692004-svg](https://github.com/mdsalmanfarsi692004-svg)
 
 ---
