@@ -80,7 +80,7 @@ except Exception as e:
     st.stop()
 
 # 4. Header Section (Centered & Professional)
-st.markdown('<p class="main-title">⚡ Enterprise Customer Segmentation AI</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-title">⚡Enterprise Customer Segmentation AI ⚡</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-title">Powered by Advanced K-Means Clustering • Analyze behavioral patterns & drive targeted marketing strategies in real-time.</p>', unsafe_allow_html=True)
 
 st.write("---")
